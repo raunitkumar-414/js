@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    
+    <link rel="stylesheet" href="temperatureconverter.css" >
+</head>
+<body>
+
+    <form>
+
+        <h1> : Temperature Converter : </h1>
+
+        <input type="number" id="textbox" placeholder="ex:215">  <br>
+
+        <input type="radio" id="CtoF" name="unit">
+        <label for="CtoF"> Celsius ➡️ Fahrenheit  </label> <br>
+        
+        <input type="radio" id="CtoK" name="unit">
+        <label for="CtoK"> Celsius ➡️ Kelwin  </label> <br>
+
+        <input type="radio" id="FtoC" name="unit">
+        <label for="FtoC"> Fahrenheit ➡️ Celsius  </label> <br>
+
+        <input type="radio" id="FtoK" name="unit">
+        <label for="FtoK"> Fahrenheit ➡️ Kelwin  </label> <br>
+
+        <input type="radio" id="KtoC" name="unit">
+        <label for="KtoC"> Kelwin ➡️ Celsius  </label> <br>
+
+        <input type="radio" id="KtoF" name="unit">
+        <label for="KtoF"> Kelwin ➡️ Fahrenheit  </label> <br> <br>
+
+        <button type="button" onclick="convert()"> Submit </button>
+
+        <p id="result"> </p>
+
+        </form>
+
+    
+    <script src="temperatureconverter.js"> </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+    margin-top: 200px;    
+    background-color: white;
+    max-width: 750px;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 10px;
+
+}
+#container{
+    padding: 10px;
+    font-family: arial;
+    color: rgb(13, 20, 18);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+
+    #h1{
+        margin-bottom: 10px;
+        color: rgb(68, 214, 24);
+        text-shadow: 4px 4px 8px rgb(119, 0, 255);
+        
+    }
+    button{
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: rgb(68, 214, 24);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(119, 0, 255);
+    }
+    button:active{
+        background-color: rgb(203, 1, 1);
+    }
+    #numOfDice{
+        font-size: 2rem;
+        width: 200px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+
+#Dice_images img{
+    width: 60px;      
+    height: 60px;
+    margin-left: 10px;  
+    margin-bottom: 20px;
+    margin-top: 20px;     
+}

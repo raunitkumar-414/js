@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+    margin-top: 50px;    
+    background-color: white;
+    max-width: 750px;
+    box-shadow: 4px 4px 15px black;
+    border-radius: 10px;
+
+}
+#container{
+    padding: 10px;
+    font-family: arial;
+    color: rgb(13, 20, 18);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+
+    #h1{
+        margin-bottom: 10px;
+        font-size: 3rem;
+        color: rgb(219, 11, 11);
+        text-shadow: 4px 4px 8px rgb(231, 208, 32);
+        
+    }
+    button{
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: rgb(214, 24, 176);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(99, 18, 191);
+    }
+    button:active{
+        background-color: rgb(203, 1, 1);
+    }
+    #CARD_RESULT{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+
+#CARD_IMAGES{
+    display: flex;
+    width: 10px;      
+    height: 75px;
+    margin-left: 10px;  
+    margin-bottom: 20px;
+    margin-top: 20px;     
+}
+#CARD_IMAGES img {
+    width: 60px;           
+    height: auto;          
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+#CARD_IMAGES img:hover {
+    transform: translateY(-6px);
+    height: 100px;
+    width: auto;
+}
